@@ -32,7 +32,7 @@ const Sidebar = () => {
         </li>
         <li>
           <Link to="/goals" className="block py-2 px-4 hover:bg-black hover:bg-opacity-50 hover:rounded-md">
-          <span className="mr-2" role="img" aria-label="Goals icon">🎯</span>
+          <span className="mr-2" role="img" aria-label="Goals icon nav">🎯</span>
            Goals
           </Link>
         </li>
