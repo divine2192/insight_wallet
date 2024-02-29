@@ -8,27 +8,32 @@ const Sidebar = () => {
       <ul>
         <li>
           <Link to="/overview" className="block py-2 px-4 hover:bg-black hover:bg-opacity-50 hover:rounded-md">
-            Overview
+          <span className="mr-2" role="img" aria-label="Overview icon">📊</span>
+           Overview
           </Link>
         </li>
         <li>
           <Link to="/transactions" className="block py-2 px-4 hover:bg-black hover:bg-opacity-50 hover:rounded-md">
-            Transactions
+          <span className="mr-2" role="img" aria-label="Transactions icon">💳</span>
+           Transactions
           </Link>
         </li>
         <li>
           <Link to="/reports" className="block py-2 px-4 hover:bg-black hover:bg-opacity-50 hover:rounded-md">
-            Reports
+          <span className="mr-2" role="img" aria-label="Reports icon">📈</span>
+           Reports
           </Link>
         </li>
         <li>
           <Link to="/budgets" className="block py-2 px-4 hover:bg-black hover:bg-opacity-50 hover:rounded-md">
+          <span className="mr-2" role="img" aria-label="Budgets icon">💰</span>
             Budgets
           </Link>
         </li>
         <li>
           <Link to="/goals" className="block py-2 px-4 hover:bg-black hover:bg-opacity-50 hover:rounded-md">
-            Goals
+          <span className="mr-2" role="img" aria-label="Goals icon">🎯</span>
+           Goals
           </Link>
         </li>
       </ul>
